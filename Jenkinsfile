@@ -13,7 +13,7 @@ Pipeline {
 		}
 		stage("checkout from SCM"){
 			step {
-				git branch: 'main', credentialsid: 'hitgub', url: 'https://github.com/Ashfaque-9x/register-app.git'
+				git branch: 'main', credentialsid: 'hitgub', url: 'https://github.com/shankarrasamalla/Project.git'
 				}
 		}
 		stage("Build Application"){
